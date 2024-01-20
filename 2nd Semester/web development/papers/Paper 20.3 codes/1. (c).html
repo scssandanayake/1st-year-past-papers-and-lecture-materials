@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>1 (a)</title>
+
+<script>
+function validateform()
+{
+Firstname = document.RegisterForm.Firstname.value.length;
+Lastname = document.RegisterForm.Lastname.value.length;
+Email = document.RegisterForm.Email.value.length;
+Password = document.RegisterForm.Password.value.length;
+
+Day = document.RegisterForm.Day.value.length;
+Month = document.RegisterForm.Month.value.length;
+Year = document.RegisterForm.Year.value,length;
+
+if(isNaN(document.RegisterForm.invitekey.value))
+{
+alert("Invite Key is Invalid !! Invite Key Must Contain numeric Values !");
+return;
+}
+
+if(Password<=6)
+{
+alert("Password Invalid !! should Contain 6 minimum characters!");
+return;
+}
+
+if(Firstname<1 || Lastname<1 || Email<1)
+{
+alert("Name, Email are empty !! fields are required!");
+return;
+}
+
+if(Day == 0 || Month == 0 || Year == 0)
+{
+alert("Input is empty ! Enter Date to Continue ");
+return;
+}
+
+}
+</script>
+
+</head>
+
+<body>
+
+<form method = POST name = "RegisterForm">
+
+<table align ="center">
+
+<tr>
+<td colspan = "2">
+<input type = "text" name = "inviteKey" placeholder = "Your Invite Key" size = "46" style="color: #000000; background-color: #e7bf8e; height: 35px; font-size:12; " /></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr>
+<td><input type = "text" name = "firstname" placeholder = "First Name" style = "height: 35px; font-size:12;"></td>
+<td><input type = "text" name = "lastname" placeholder = "Last Name" style = "height: 35px; font-size:12;"></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr>
+<td colspan = "2">
+<input type = "text" name = "email" placeholder = "Email" size = "46" style = "height: 35px; font-size:12;"></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr>
+<td colspan = "2">
+<input type = "password" name = "Password" placeholder = "New Password" size = "46" style = "height: 35px; font-size:12;"></td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr>
+<td colspan = "2">
+<select name = "month" style = "height: 35px; width: 100px; font-size:12;"">
+<option value = "0">Month</option>
+<option value = "1">January</option>
+<option value = "2">February</option>
+<option value = "3">March</option>
+<option value = "4">April</option>
+<option value = "5">May</option>
+<option value = "6">June</option>
+<option value = "7">July</option>
+<option value = "8">August</option>
+<option value = "9">September</option>
+<option value = "10">October</option>
+<option value = "11">November</option>
+<option value = "12">December</option>
+</select>
+
+<select name = "day" style = "height: 35px; width: 100px; font-size:12;"">
+<script>
+document.write("<option value = '0'>Day</option>");
+
+for(i=1;i<=31;i++)
+{
+document.write("<option value = "+i+">"+i+"</option>");
+}
+</script>
+</select>
+
+<select name = "year" style = "height: 35px; font-size:12; width: 100px">
+<script>
+document.write("<option value = '0'>Year</option>");
+
+for(i=2000;i<=2020;i++)
+{
+document.write("<option value = "+i+">"+i+"</option>");
+}
+</script>
+</select>
+</td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr>
+<td colspan = "2" align = "center">
+<input type = "submit" name = "sub" value = "REGISTER" onclick = "validateform()"
+style = "background-color: green; color: white; padding: 5px 10px; text-align: center;border: 0px; border-radius: 13%; height: 35px; font-size:12; width: 100px"/>
+</td>
+</tr>
+  
+</table>
+
+</form>
+</body>
+</html>
