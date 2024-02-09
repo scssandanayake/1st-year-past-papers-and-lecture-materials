@@ -1,6 +1,6 @@
 # 1st-year-past-papers-and-notes
-- This repository contains past papers, notes, and lecture notes for the 1st year modules that taught in Faculty of Computing (FOC) at NSBM Green University.
-- Resources for UGC, Plymouth and victoria university degrees.
+- This repository contains past papers, notes, tutorials, reference books, other PDF's and other lecture materials for the 1st year modules that taught in Faculty of Computing (FOC) at NSBM Green University.
+- Contain resources for UGC, Plymouth and victoria university degrees.
 - For these degree domains -> SE, CS, DS, CN, TM, MIS, BIT(CS) and computer security.
 
 - I'm still updating this repo . 
