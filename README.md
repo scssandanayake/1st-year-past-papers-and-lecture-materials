@@ -6,7 +6,7 @@
        - Reference books<BR>
        - Other PDF's and<BR>
        - Other lecture materials
-- Contain module resources for UGC, Plymouth and victoria university degrees.
+- Includes all the 1st year module resources for UGC, Plymouth and Victoria university degrees.
 - For these degree domains -> SE, CS, DS, CN, TM, MIS, BIT(CS) and computer security.
 - You can "STAR" this repository.
 ## Year 1 | Semester 1
