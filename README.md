@@ -8,7 +8,7 @@
        - Other lecture materials
 - Includes all the 1st year module resources for UGC, Plymouth and Victoria university degrees.
 - For these degree domains -> SE, CS, DS, CN, TM, MIS, BIT(CS) and computer security.
-- You can "STAR" this repository.
+
 ## Year 1 | Semester 1
 ### Modules
 - Introduction to Computer Science ( INTRO )
